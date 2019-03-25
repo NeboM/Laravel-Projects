@@ -1,0 +1,67 @@
+body {
+    background: #f9f9f9;
+}
+.btn-custom {
+    min-width: 130px;
+    outline: none;
+}
+.btn:focus {
+    border: none;
+    outline: none;
+}
+textarea:hover,
+input:hover,
+textarea:active,
+input:active,
+textarea:focus,
+input:focus,
+button:focus,
+button:active,
+button:hover,
+label:focus,
+.btn:active,
+.btn.active
+{
+    outline: none;
+    box-shadow:none !important;
+    border:1px solid #ccc !important;
+}
+.mt-15{
+    margin-top: 15px;
+}
+.max-width-750 {
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+.pagination {
+    display: inline-block;
+
+}
+.page-item {
+    display: inline-block;
+}
+
+a {
+    font-weight: 600;
+}
+p {
+    font-family: 'Neuton', serif;
+    font-size: 1.4em;
+}
+h1,h2,h3 {
+    font-family: 'Bangers', cursive;
+}
+h3 a {
+    color: black;
+    text-decoration: underline;
+    font-weight: 300;
+}
+
+.navbar-brand {
+    font-weight: 900;
+}
+.dropdown-item:focus {
+    background-color: white;
+    color: black;
+}
