@@ -69,7 +69,7 @@ class TasksController extends Controller
         if(!empty($request['date'])){
             return redirect('/future')->with('success','Task updated successfully');
         }else{
-            return redirect('/today')->with('success','Task updated successfully');
+            return redirect('/')->with('success','Task updated successfully');
         }
     }
 
