@@ -21,6 +21,11 @@ Route::middleware(['auth'])->group(function(){
     Route::get('/home', 'HomeController@index')->name('home');
     Route::resource('task','TasksController')->except('index','show','create');
 
+
+    Route::get('/noob','GoalController@noob');
+    Route::get('/normal','GoalController@normal');
+    Route::get('/pro','GoalController@pro');
+    Route::get('/master','GoalController@master');
 });
 
 

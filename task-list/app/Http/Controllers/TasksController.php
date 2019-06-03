@@ -9,7 +9,7 @@ use Illuminate\Support\Facades\Auth;
 
 class TasksController extends Controller
 {
-
+    use UpdateCurrentStreakTrait;
     /**
      * Show the form for editing the specified resource.
      *
@@ -83,17 +83,7 @@ class TasksController extends Controller
     {
         $task = Task::findOrFail($id);
         $task->delete();
+        UpdateCurrentStreakTrait::update();
         return redirect()->back()->with('success','Task deleted successfully');
-    }
-
-    public function finish(){
-//        $task = Task::findOrFail($id);
-        $task = new Task();
-        if($task->finished){
-            $task->finished = false;
-        }else{
-            $task->finished = true;
-        }
-        return redirect()->back();
     }
 }

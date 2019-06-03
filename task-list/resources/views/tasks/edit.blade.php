@@ -2,10 +2,10 @@
 @section('content')
 
     @if(!empty($task) && $task->date >= \Carbon\Carbon::today()->format('Y-m-d'))
-        <h3 class="text-center mt-5 font-weight-bold">Update Task</h3>
-        <h5 class="text-center mt-3 font-weight-bold font-italic"><small><span class="color-custom-02 font-weight-bold">{{$task->date}}</span></small></h5>
+        <h5 class="text-center mt-4 font-weight-bold">Update Task</h5>
+        <h5 class="text-center mt-3 font-weight-bold"><small><span class="font-weight-bold">{{$task->date}}</span></small></h5>
 
-        <form class="max-width" action="{{action('TasksController@update',['id'=>$task->id])}}" method="POST">
+        <form class="max-width mt-4" action="{{action('TasksController@update',['id'=>$task->id])}}" method="POST">
             @csrf
             @method('PUT')
             <div class="input-group">
@@ -18,10 +18,10 @@
                                 </option>
                             @endfor
                         </select>
-                    <input type="submit" value="Update Task" class="btn btn-secondary second">
+                    <input type="submit" value="Update Task" class="btn btn-custom second">
                 @else
                     <input class="form-control first" type="text" placeholder="Task name" name="name"  value="{{$task->name}}">
-                    <input type="submit" value="Update Task" class="btn btn-secondary second">
+                    <input type="submit" value="Update Task" class="btn btn-custom second">
                 @endif
 
 

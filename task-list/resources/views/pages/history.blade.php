@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @section('content')
-
+    <h5 class="text-center font-weight-bold mt-3">Past Tasks</h5>
     @php
         $numberOfTasksLastWeek =  0;
         $numberOfTasksFinishedLastWeek = 0;
@@ -15,9 +15,9 @@
             @endphp
         @endif
     @endforeach
-    <p class="text-center mt-4">You finished <span class="font-weight-bold color-custom-01">{{$numberOfTasksFinishedLastWeek}}</span>
-        out of <span class="font-weight-bold color-custom-01">{{$numberOfTasksLastWeek}}</span>
-        tasks in the last 7 days.</p>
+    <p class="text-center mt-2 text-muted"><small>You finished <span class="font-weight-bold color-custom-04 big-font">{{$numberOfTasksFinishedLastWeek}}</span>
+            out of <span class="font-weight-bold big-font color-custom-04">{{$numberOfTasksLastWeek}}</span>
+        tasks in the last 7 days.</small></p>
     @if(count($tasks) > 0)
         @php
             $dates = array();
@@ -43,7 +43,7 @@
                 <td scope="col" class="w-75">{{$tasks[$i]->name}}</td>
                 <td scope="col" class="w-25">
                     @if($tasks[$i]->finished)
-                        <span class="color-custom-01 font-weight-bold font-italic">Finished</span>
+                        <span class="color-custom-02 font-weight-bold font-italic">Finished</span>
                     @else
                         <span class="font-italic color-custom-02">Not Finished</span>
                     @endif
@@ -57,7 +57,7 @@
 
     @else
         <div class="text-center">
-            <p class="text-center font-weight-bold">No created task in the last 7 days.</p>
+            <p class="text-center font-weight-bold">Du bist Scheiße :(</p>
         </div>
 
     @endif

@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @section('content')
-    <h5 class="text-center font-italic font-weight-bold mt-3">Future Tasks</h5>
+    <h5 class="text-center font-weight-bold mt-3">Future Tasks</h5>
     <small><p class="text-center color-custom-02">Add new tasks for the future</p></small>
     <form class="max-width mt-3" action="{{route('task.store')}}" method="POST">
         @csrf
@@ -14,7 +14,7 @@
                     </option>
                 @endfor
             </select>
-            <input type="submit" value="Submit task" class="btn btn-secondary second">
+            <input type="submit" value="Submit task" class="btn btn-custom second">
         </div>
     </form>
 
@@ -46,7 +46,7 @@
                             <form action="{{action('TasksController@destroy',['id'=>$tasks[$i]->id])}}" method="POST" class="text-center">
                                 @csrf
                                 @method('DELETE')
-                                <button class="delete" type="submit"><i class="fas fa-trash-alt"></i></button>
+                                <button class="delete" type="submit"><i class="fas fa-trash-alt color-custom-02"></i></button>
                             </form>
                         </td>
                     </tr>

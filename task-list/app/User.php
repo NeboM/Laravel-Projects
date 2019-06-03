@@ -43,4 +43,8 @@ class User extends Authenticatable
     public function tasks(){
         return $this->hasMany(Task::class);
     }
+
+    public function user_progress(){
+        return $this->hasOne(UserProgress::class);
+    }
 }

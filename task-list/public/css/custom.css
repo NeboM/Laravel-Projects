@@ -4,29 +4,89 @@
 .no-underline:hover {
     text-decoration: none;
 }
+h1,h2,h3,h4,h5,h6 {
+    font-family: Helvetica,"Times New Roman";
+}
+
+small {
+    font-size: 15px;
+}
 nav {
     padding-bottom: 10px !important;
+}
+.btn-dark-custom {
+    padding: 2px;
+    width: 100%;
+    background-color: gray;
+    color: white;
+    font-weight: bold;
+}
+.nav-color {
+    background-color: #233040;
+}
+.navbar-brand {
+    font-family: 'Delius', cursive;
+    font-size: 17px;
+
 }
 .center {
     margin: 0 auto;
     display: inline-block;
 }
 .color-custom-01 {
-    color: green !important;
+    color: #f6993f !important;
+}
+.btn-custom-02 {
+    background: #233040;
+    color: white;
+}
+.color-custom-03 {
+    color: gray !important;
 }
 .color-custom-02 {
-    color: gray;
+    color: black;
 }
-.fas  {
+.color-custom-04 {
+    color: #f6993f;
+}
+.color-custom-04:hover {
+    color: #f6993f;
+}
+
+.big-font {
+    font-size: 23px;
+    margin: 0px 1px;
+
+}
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+.dropdown-menu {
+    margin-top: 0px;
+}
+.custom-dropdown {
+    width: 300px;
+    margin: 0 auto;
+    padding: 15px;
+}
+td .fas {
     color: #5A6268;
     text-align: center;
     font-size: 27px;
 }
-.fas:hover {
+td .fas:hover {
     color: #000022 !important;
 }
 .max-width {
     max-width: 850px !important;
+    margin: 0 auto;
+}
+.max-width-1 {
+    max-width: 800px !important;
+    margin: 0 auto;
+}
+.max-width-2 {
+    max-width: 1000px !important;
     margin: 0 auto;
 }
 html, body {
@@ -65,6 +125,14 @@ table {
     border-radius: 0px 4px 4px 0px !important;
 
 }
+.btn-custom {
+    background-color: #FEBD69;
+    color: white !important;
+}
+.clear-10 {
+    width: 100%;
+    height: 10px;
+}
 textarea:hover,
 input:hover,
 textarea:active,
@@ -95,10 +163,15 @@ select:focus
 
 footer {
     height: 25px;
-    background-color: #343A40 !important;
-    color: #f9f9f9;
+    color: white;
+    font-size: 14px;
+    padding-top: 2px;
 }
 .dropdown-item:active {
     background-color: #ebebeb !important;
     color: black;
+}
+.clear {
+    width: 100%;
+    height: 40px;
 }
