@@ -1,20 +1,23 @@
 # Laravel Task-List
 
-Project for personal use.
-##### One-to-many relationship.
+Project for personal use, task-list which tracks your daily activities
+
 ---
 
 #### Database tables:
     Users
     Tasks
+    User Progress
 
 #### Controllers:
     PagesController.php
     TasksController.php
+    GoalController.php
 
 #### Models
     Task.php
     User.php
+    UserProgress.php
 
 
 
