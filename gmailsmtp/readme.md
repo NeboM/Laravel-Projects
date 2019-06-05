@@ -23,6 +23,3 @@ Clone the project and edit your .env file
 ![mailsent](https://user-images.githubusercontent.com/24662381/58986437-aa86e480-87dd-11e9-86eb-7458bea513c2.png)
 
 
-[![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
-
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
