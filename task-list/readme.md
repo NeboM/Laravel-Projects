@@ -1,20 +1,23 @@
 # Laravel Task-List
 
-Project for personal use.
-##### One-to-many relationship.
+Project for personal use, task-list which tracks your daily activities
+
 ---
 
 #### Database tables:
     Users
     Tasks
+    User Progress
 
 #### Controllers:
     PagesController.php
     TasksController.php
+    GoalController.php
 
 #### Models
     Task.php
     User.php
+    UserProgress.php
 
 
 
@@ -24,8 +27,25 @@ Project for personal use.
 
 #### Screenshots: 
   
-![today](https://user-images.githubusercontent.com/24662381/56851825-bc8a8300-6913-11e9-8e8e-e6d45f48a575.png)
+![today](https://user-images.githubusercontent.com/24662381/58834794-88ae2600-8654-11e9-92ee-7379b3e45c26.png)
 
-![future](https://user-images.githubusercontent.com/24662381/56851827-be544680-6913-11e9-9803-1378830370da.png)
+-----------------
 
-![history](https://user-images.githubusercontent.com/24662381/56851828-bf857380-6913-11e9-8788-e1931108b190.png)
+![history](https://user-images.githubusercontent.com/24662381/58834798-8946bc80-8654-11e9-97c3-c644b2bbf7b8.png)
+
+-----------------
+
+![future](https://user-images.githubusercontent.com/24662381/58834797-8946bc80-8654-11e9-92c6-ae2b2ec64eeb.png)
+
+-----------------
+
+![goal](https://user-images.githubusercontent.com/24662381/58834795-8946bc80-8654-11e9-841a-1c82e5bc0d1f.png)
+
+-----------------
+
+![login](https://user-images.githubusercontent.com/24662381/58834799-89df5300-8654-11e9-96be-abb516c1209b.png)
+
+-----------------
+
+![register](https://user-images.githubusercontent.com/24662381/58834800-89df5300-8654-11e9-8e1d-863de831d7ad.png)
+
