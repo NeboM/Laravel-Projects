@@ -57,7 +57,7 @@
 
     @else
         <div class="text-center">
-            <p class="text-center font-weight-bold">Du bist Scheiße :(</p>
+            <p class="text-center font-weight-bold">:(</p>
         </div>
 
     @endif
