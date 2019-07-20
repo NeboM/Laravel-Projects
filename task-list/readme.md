@@ -39,7 +39,7 @@ Project for personal use, task-list which tracks your daily activities
 
 -----------------
 
-![goal](https://user-images.githubusercontent.com/24662381/58834795-8946bc80-8654-11e9-841a-1c82e5bc0d1f.png)
+![goal](https://user-images.githubusercontent.com/24662381/61576788-5b231c00-aade-11e9-8881-137277935f64.png)
 
 -----------------
 
