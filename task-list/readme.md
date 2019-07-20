@@ -27,15 +27,15 @@ Project for personal use, task-list which tracks your daily activities
 
 #### Screenshots: 
   
-![today](https://user-images.githubusercontent.com/24662381/58834794-88ae2600-8654-11e9-92ee-7379b3e45c26.png)
+![today](https://user-images.githubusercontent.com/24662381/61576720-9bce6580-aadd-11e9-9e9b-14c41f346d3d.png)
 
 -----------------
 
-![history](https://user-images.githubusercontent.com/24662381/58834798-8946bc80-8654-11e9-97c3-c644b2bbf7b8.png)
+![history](https://user-images.githubusercontent.com/24662381/61576718-9bce6580-aadd-11e9-9f3c-a0b379c4aabc.png)
 
 -----------------
 
-![future](https://user-images.githubusercontent.com/24662381/58834797-8946bc80-8654-11e9-92c6-ae2b2ec64eeb.png)
+![future](https://user-images.githubusercontent.com/24662381/61576719-9bce6580-aadd-11e9-8844-63a9275efb09.png)
 
 -----------------
 
@@ -43,9 +43,9 @@ Project for personal use, task-list which tracks your daily activities
 
 -----------------
 
-![login](https://user-images.githubusercontent.com/24662381/58834799-89df5300-8654-11e9-96be-abb516c1209b.png)
+![login](https://user-images.githubusercontent.com/24662381/61576716-9b35cf00-aadd-11e9-9e29-b4dccffb810b.png)
 
 -----------------
 
-![register](https://user-images.githubusercontent.com/24662381/58834800-89df5300-8654-11e9-8e1d-863de831d7ad.png)
+![register](https://user-images.githubusercontent.com/24662381/61576717-9bce6580-aadd-11e9-91ee-d1926a9922df.png)
 
